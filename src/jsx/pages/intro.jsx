@@ -12,8 +12,8 @@ const Intro = () => {
                     <div className="row align-items-center justify-content-between">
                         <div className="col-xl-6 col-md-6">
                             <div className="intro-content pb-5">
-                                <h1>Qash - Crypto Exchange Dashboard React App</h1>
-                                <p>Qash is the complete UI Kit for cryptocurrency exchange. Sign in, Signup, Phone and ID
+                                <h1>SteamX - Crypto Exchange Dashboard React App</h1>
+                                <p>SteamX is the complete UI Kit for cryptocurrency exchange. Sign in, Signup, Phone and ID
                                 card
                                 verification, One time password verify and add bank, debit card settings and profile etc
                                 pages included. </p>

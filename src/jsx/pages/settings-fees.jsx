@@ -32,7 +32,7 @@ const SettingsFees = () => {
                                                         <thead>
                                                             <tr>
                                                                 <th>Tier</th>
-                                                                <th>Total Qash holding</th>
+                                                                <th>Total SteamX holding</th>
                                                                 <th>30-day Trading Volume (BTC)</th>
                                                                 <th>Maker Fee</th>
                                                                 <th>Taker Fee</th>
@@ -106,7 +106,7 @@ const SettingsFees = () => {
                                                         <thead>
                                                             <tr>
                                                                 <th>Tier</th>
-                                                                <th>Total Qash holding</th>
+                                                                <th>Total SteamX holding</th>
                                                                 <th>30-day Trading Volume (BTC)</th>
                                                                 <th>Maker Fee</th>
                                                                 <th>Taker Fee</th>

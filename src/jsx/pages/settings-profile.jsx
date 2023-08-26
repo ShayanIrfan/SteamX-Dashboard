@@ -40,7 +40,7 @@ const Settingsprofile = () => {
                                                                     src={profile2} width="55" height="55"
                                                                     alt=""/>
                                                                 <div className="media-body">
-                                                                    <h4 className="mb-0">Jannatul Maowa</h4>
+                                                                    <h4 className="mb-0">Neville Divecha</h4>
                                                                     <p className="mb-0">Max file size is 20mb
                                                                     </p>
                                                                 </div>
@@ -106,7 +106,7 @@ const Settingsprofile = () => {
                                                         <div className="col-xxl-6 col-xl-6 col-lg-6">
                                                             <label className="form-label">Your Name</label>
                                                             <input type="text" className="form-control"
-                                                                placeholder="Jannatul Maowa" name="fullname"/>
+                                                                placeholder="Neville Divecha" name="fullname"/>
                                                         </div>
                                                         <div className="col-xxl-6 col-xl-6 col-lg-6">
                                                             <label className="form-label">Email</label>

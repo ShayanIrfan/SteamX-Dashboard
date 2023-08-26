@@ -36,8 +36,8 @@ const Demo = () => {
                     <div class="row align-items-center justify-content-between">
                         <div class="col-xl-6 col-md-6">
                             <div class="intro-content pb-5">
-                                <h1>Qash - Crypto Exchange Dashboard React App</h1>
-                                <p>Qash is the complete UI Kit for cryptocurrency exchange. Sign in, Signup, Phone and ID
+                                <h1>SteamX - Crypto Exchange Dashboard React App</h1>
+                                <p>SteamX is the complete UI Kit for cryptocurrency exchange. Sign in, Signup, Phone and ID
                                 card
                                 verification, One time password verify and add bank, debit card settings and profile etc
                                 pages included. </p>
@@ -296,7 +296,7 @@ const Demo = () => {
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                             <div class="copyright">
-                                <p>© Copyright 2020 <Link to={"#"}>Qash</Link> I All Rights Reserved</p>
+                                <p>© Copyright 2020 <Link to={"#"}>SteamX</Link> I All Rights Reserved</p>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">

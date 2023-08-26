@@ -33,7 +33,7 @@ const Dashboard = () => {
                                             <form action="#">
                                                 <div className="input-group">
                                                     <input type="text" className="form-control"
-                                                        value="https://www.Qash.io/join/12345" />
+                                                        value="https://www.SteamX.io/join/12345" />
                                                     <span className="input-group-text">Copy</span>
                                                 </div>
                                             </form>
@@ -49,7 +49,7 @@ const Dashboard = () => {
                                         <h4>Get free BTC every day</h4>
                                         <p>Earn free bitcoins in rewards by completing a learning mission daily or
                                         inviting
-                                        friends to Qash. <Link to={"#"}>Learn more</Link>
+                                        friends to SteamX. <Link to={"#"}>Learn more</Link>
 
                                         </p>
 
@@ -104,9 +104,9 @@ const Dashboard = () => {
                             <div className="card welcome-profile">
                                 <div className="card-body">
                                     <img src={profile2} alt="" />
-                                    <h4>Welcome, Jannatul Maowa!</h4>
+                                    <h4>Welcome, Neville Divecha!</h4>
                                     <p>Looks like you are not verified yet. Verify yourself to use the full potential of
-                                    Qash.</p>
+                                    SteamX.</p>
 
                                     <ul>
                                         <li>

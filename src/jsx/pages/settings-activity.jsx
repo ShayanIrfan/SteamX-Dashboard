@@ -395,7 +395,7 @@ const Settings = () => {
                                                 <h4 className="card-title">Close Account</h4>
                                             </div>
                                             <div className="card-body px-0">
-                                                <p>Withdraw funds and close your Qash account - <span className="text-danger">this cannot be undone</span></p>
+                                                <p>Withdraw funds and close your SteamX account - <span className="text-danger">this cannot be undone</span></p>
                                                 <Link to={"#"} className="btn btn-danger">Close Account</Link>
                                             </div>
                                         </div>

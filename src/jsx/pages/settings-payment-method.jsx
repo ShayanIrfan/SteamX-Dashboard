@@ -43,8 +43,8 @@ const SettingsPaymentMethod = () => {
                                                         <div className="d-flex align-items-center">
                                                             <span className="mr-3 icon-circle bg-primary text-white"><i className="icofont-ui-touch-phone"></i></span>
                                                             <div className="primary-number">
-                                                                <p className="mb-0">Bank of America</p>
-                                                                <small>Bank **************5421</small>
+                                                                <p className="mb-0">Wallet of America</p>
+                                                                <small>Wallet **************5421</small>
                                                                 <br />
                                                                 <span className="text-success">Verified</span>
                                                             </div>
@@ -58,7 +58,7 @@ const SettingsPaymentMethod = () => {
                                                             <span className="mr-3 icon-circle bg-primary text-white"><i className="icofont-email"></i></span>
                                                             <div className="primary-number">
                                                                 <p className="mb-0">Master Card</p>
-                                                                <small>Credit Card *********5478</small>
+                                                                <small>Credit Wallet*********5478</small>
                                                                 <br />
                                                                 <span className="text-success">Verified</span>
                                                             </div>
@@ -67,7 +67,7 @@ const SettingsPaymentMethod = () => {
                                                     </div>
 
                                                     <div className="mt-5">
-                                                        <button type="button" className="btn btn-primary mr-3" onClick={handleShow1}>Add New Bank</button>
+                                                        <button type="button" className="btn btn-primary mr-3" onClick={handleShow1}>Add New Wallet</button>
                                                         <button type="button" className="btn btn-success" onClick={handleShow}>Add New Card</button>
                                                     </div>
 
@@ -85,7 +85,7 @@ const SettingsPaymentMethod = () => {
 
             <Modal show={show1} onHide={handleClose1}>
                 <Modal.Header>
-                    <Modal.Title>Add Bank Account</Modal.Title>
+                    <Modal.Title>Add Wallet Account</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <form action="verify-step-6.html" class="identity-upload">
@@ -100,7 +100,7 @@ const SettingsPaymentMethod = () => {
                             </div>
                             <div class="col-xl-12">
                                 <label class="form-label">Fulll name </label>
-                                <input type="text" class="form-control" placeholder="Jannatul Maowa" />
+                                <input type="text" class="form-control" placeholder="Neville Divecha" />
                             </div>
                             <div class="col-xl-12">
                                 <img src={checkimg} alt="" class="img-fluid" />
@@ -124,10 +124,10 @@ const SettingsPaymentMethod = () => {
                         <div class="row g-3">
                             <div class="col-xl-12">
                                 <label class="form-label">Name on card </label>
-                                <input type="text" class="form-control" placeholder="Jannatul Maowa" />
+                                <input type="text" class="form-control" placeholder="Neville Divecha" />
                             </div>
                             <div class="col-xl-12">
-                                <label class="form-label">Card number </label>
+                                <label class="form-label">Walletnumber </label>
                                 <input type="text" class="form-control" placeholder="5658 4258 6358 4756" />
                             </div>
                             <div class="col-xl-4">

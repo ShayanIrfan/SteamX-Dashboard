@@ -14,8 +14,8 @@ const HeaderIntro = () => {
                             <nav class="navbar">
                                 <div class="brand-logo">
                                     <Link to={"/"}>
-                                        <img src={logo} alt="" />
-                                        <span>Qash</span>
+                                        <img src="https://i.ibb.co/0sMXWD1/android-chrome-192x192.png" alt="" />
+                                        <span>SteamX</span>
                                     </Link>
                                 </div>
                                 <Link to={"/signin"} class="btn btn-success">Sign in</Link>

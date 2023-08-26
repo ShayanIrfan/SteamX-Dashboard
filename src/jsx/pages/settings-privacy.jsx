@@ -28,7 +28,7 @@ const SettingsPrivacy = () => {
                                             </div>
                                             <div className="card-body px-0">
                                                 <h5>Instant sends</h5>
-                                                <p className="mb-1">Allow other users to see that you use Qash and send
+                                                <p className="mb-1">Allow other users to see that you use SteamX and send
                                                     you crypto
                                                     instantly</p>
                                                 <div className="form-check form-switch mt-3">
@@ -39,7 +39,7 @@ const SettingsPrivacy = () => {
                                         </div>
                                         <div className="card">
                                             <div className="card-header px-0">
-                                                <h4 className="card-title">Your Qash account</h4>
+                                                <h4 className="card-title">Your SteamX account</h4>
                                             </div>
                                             <div className="card-body px-0">
                                                 <p>You have a number of rights over your personal data. For more
@@ -51,7 +51,7 @@ const SettingsPrivacy = () => {
 
                                                 <div className="privacy-content">
                                                     <h5>Request Data</h5>
-                                                    <p>Request a copy of my personal data held by Qash.</p>
+                                                    <p>Request a copy of my personal data held by SteamX.</p>
                                                     <Link to={"#"} className="btn btn-outline-primary">Request data</Link>
                                                 </div>
 
@@ -84,7 +84,7 @@ const SettingsPrivacy = () => {
                                                 <div className="privacy-content">
                                                     <h5>Request Restriction of Processing (EU and Japan Residents only)
                                                     </h5>
-                                                    <p>Request that Qash stops processing my personal data.</p>
+                                                    <p>Request that SteamX stops processing my personal data.</p>
                                                     <Link to={"#"} className="btn btn-outline-primary">Request restriction</Link>
                                                 </div>
 

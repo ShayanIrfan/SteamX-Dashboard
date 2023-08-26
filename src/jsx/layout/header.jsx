@@ -17,8 +17,8 @@ const Header = () => {
                                 <div className="header-left">
                                     <div className="brand-logo">
                                         <Link to={"/"}>
-                                            <img src={logo} alt="" />
-                                            <span>Qash</span>
+                                            <img src="https://i.ibb.co/0sMXWD1/android-chrome-192x192.png" alt="" />
+                                            <span>SteamX</span>
                                         </Link>
                                     </div>
                                     <div className="search">
@@ -94,16 +94,16 @@ const Header = () => {
 
                                     <Dropdown className="profile_log" alignRight>
                                         <Dropdown.Toggle>
-                                            <span className="thumb"><img src={thumb} alt="" width="30" /></span>
+                                            <span className="thumb"><img src="https://i.ibb.co/0sMXWD1/android-chrome-192x192.png" alt="" width="30" /></span>
                                             <span className="arrow"><i className="icofont-angle-down"></i></span>
                                         </Dropdown.Toggle>
                                         <Dropdown.Menu>
                                             <div className="user-email">
                                                 <div className="user">
-                                                    <span className="thumb"><img src={thumb} alt="" /></span>
+                                                    <span className="thumb"><img src="https://i.ibb.co/vPBKk3R/photo-2023-08-26-04-25-08.jpg" alt="" /></span>
                                                     <div className="user-info">
-                                                        <h5>Jannatul Maowa</h5>
-                                                        <span>Qash.inc@gmail.com</span>
+                                                        <h5>Neville Divecha</h5>
+                                                        <span>SteamX.inc@gmail.com</span>
                                                     </div>
                                                 </div>
                                             </div>

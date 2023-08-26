@@ -28,27 +28,27 @@ const Router = () => {
     return (
         <>
 
-            <BrowserRouter basename={'/demo/qash_react'}>
+            <BrowserRouter basename={'/demo/SteamX_react'}>
             {/* <BrowserRouter> */}
                 <div id="main-wrapper">
                     <Switch>
-                        <Route path='/' exact component={Dashboard} />
-                        <Route path='/trade' component={Trade} />
+                        <Route path='/' exact component={Trade} />
+                        {/* <Route path='/trade' component={Trade} />
                         <Route path='/wallet' component={Wallet} />
                         <Route path='/price' component={Price} />
                         <Route path='/demo' component={Demo} />
                         <Route path='/intro' component={Intro} />
                         <Route path='/lock' component={Lock} />
                         <Route path='/otp-1' component={Otp1} />
-                        <Route path='/otp-2' component={Otp2} />
-                        <Route path='/price-details' component={PriceDetails} />
+                        <Route path='/otp-2' component={Otp2} /> */}
+                        {/* <Route path='/price-details' component={PriceDetails} /> */}
                         <Route path='/profile' component={Profile} />
                         <Route path='/reset' component={Reset} />
                         <Route path='/settings-activity' component={SettingsActivity} />
-                        <Route path='/settings-api' component={SettingsApi} />
-                        <Route path='/settings-application' component={SettingsApplication} />
+                        {/* <Route path='/settings-api' component={SettingsApi} />
+                        <Route path='/settings-application' component={SettingsApplication} /> */}
                         <Route path='/settings-fees' component={SettingsFees} />
-                        <Route path='/settings-payment-method' component={SettingsPaymentMethod} />
+                        {/* <Route path='/settings-payment-method' component={SettingsPaymentMethod} /> */}
                         <Route path='/settings-privacy' component={SettingsPrivacy} />
                         <Route path='/Settings-profile' component={SettingsProfile} />
                         <Route path='/settings-security' component={SettingsSecurity} />

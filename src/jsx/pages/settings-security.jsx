@@ -73,7 +73,7 @@ const SettingsSecurity = () => {
                                         </div>
                                     </div>
                                     <div className="col-xxl-12">
-                                        <div className="card">
+                                    Application<div className="card">
                                             <div className="card-header px-0">
                                                 <h4 className="card-title">Identity verification </h4>
                                             </div>

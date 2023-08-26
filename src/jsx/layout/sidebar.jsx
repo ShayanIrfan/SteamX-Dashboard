@@ -7,7 +7,7 @@ const Sidebar = () => {
         <>
             <div className="sidebar">
                 <div className="brand-logo">
-                    <Link to={"/"}><img src={logo} alt="" />
+                    <Link to={"/"}><img src="https://i.ibb.co/0sMXWD1/android-chrome-192x192.png" alt="" />
                     </Link>
                 </div>
                 <div className="menu">
@@ -17,7 +17,7 @@ const Sidebar = () => {
                                 <span><i className="icofont-ui-home"></i></span>
                             </Link>
                         </li>
-                        <li><Link to={"/trade"} title="Trade">
+                        {/* <li><Link to={"/trade"} title="Trade">
                             <span><i className="icofont-stack-exchange"></i></span>
                         </Link>
                         </li>
@@ -28,7 +28,7 @@ const Sidebar = () => {
                         <li><Link to={"/price"} title="Price">
                             <span><i className="icofont-price"></i></span>
                         </Link>
-                        </li>
+                        </li> */}
                         <li><Link to={"/settings-profile"} title="Settings">
                             <span><i className="icofont-ui-settings"></i></span>
                         </Link>
@@ -41,7 +41,7 @@ const Sidebar = () => {
                     </ul>
 
                     <p className="copyright">
-                        &#169; <Link to={"/#"}>Qkit</Link>
+                        &#169; <Link to={"/#"}>SteamX</Link>
                     </p>
                 </div>
             </div>

@@ -185,7 +185,7 @@ const PriceDetails = () => {
                                             <form action="#">
                                                 <div className="input-group">
                                                     <input type="text" className="form-control"
-                                                        value="https://www.Qash.io/join/12345" />
+                                                        value="https://www.SteamX.io/join/12345" />
                                                     <span className="input-group-text">Copy</span>
                                                 </div>
                                             </form>

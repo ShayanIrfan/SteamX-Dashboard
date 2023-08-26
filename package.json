@@ -1,6 +1,6 @@
 {
-  "name": "qash_react",
-  "homepage": "https://qkit.io/demo/qash_react/",
+  "name": "SteamX_react",
+  "homepage": "https://qkit.io/demo/SteamX_react/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,7 +17,8 @@
     "react-perfect-scrollbar": "^1.5.8",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "web3": "^4.1.1"
   },
   "scripts": {
     "start": "react-scripts start",

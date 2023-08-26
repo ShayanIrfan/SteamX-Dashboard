@@ -10,7 +10,7 @@ const Signin = () => {
                     <div className="col-xl-5 col-md-6">
                         <div className="mini-logo text-center my-4">
                             <Link to={"/intro"}><img src={logo} alt=""/></Link>
-                            <h4 className="card-title mt-3">Sign in to Qash</h4>
+                            <h4 className="card-title mt-3">Sign in to SteamX</h4>
                         </div>
                         <div className="auth-form card">
                             <div className="card-body">

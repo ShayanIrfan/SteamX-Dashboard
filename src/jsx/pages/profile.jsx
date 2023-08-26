@@ -19,9 +19,9 @@ const Profile = () => {
                             <div className="card welcome-profile">
                                 <div className="card-body">
                                     <img src={profile2} alt="" />
-                                    <h4>Welcome, Jannatul Maowa!</h4>
+                                    <h4>Welcome, Neville Divecha!</h4>
                                     <p>Looks like you are not verified yet. Verify yourself to use the full potential of
-                                    Qash.</p>
+                                    SteamX.</p>
 
                                     <ul>
                                         <li>
