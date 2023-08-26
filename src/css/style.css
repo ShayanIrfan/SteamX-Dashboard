@@ -11964,6 +11964,17 @@ strong {
 }
 
 .menu ul li a:hover,
+.menu ul li .signout-btn:hover,
+.menu ul li a:focus,
+.menu ul li .signout-btn:focus,
+.menu ul li a:active,
+.menu ul li .signout-btn:active {
+  background: rgba(255, 255, 255, 0.1);
+  color     : #fff;
+  opacity   : 1;
+}
+
+.menu ul li a:hover,
 .menu ul li a:focus,
 .menu ul li a:active {
   background: rgba(255, 255, 255, 0.1);
@@ -11991,6 +12002,19 @@ strong {
   bottom  : 50px;
   left    : 0;
   right   : 0;
+}
+
+.menu ul li .signout-btn {
+  padding      : 12px 15px;
+  display      : inline-block;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.menu ul li .signout-btn i {
+  color    : #fff;
+  font-size: 24px;
+  opacity  : 0.75;
 }
 
 @media only screen and (max-width: 767px) {
