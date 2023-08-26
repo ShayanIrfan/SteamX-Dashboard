@@ -161,7 +161,6 @@ const Trade = () => {
                                                     <th>Type</th>
                                                     <th>Coin Name</th>
                                                     <th>Wallet</th>
-                                                    <th>Amount</th>
                                                     <th>Balance</th>
                                                 </tr>
                                             </thead>
@@ -176,7 +175,6 @@ const Trade = () => {
                                                     <td>
                                                         Using - Wallet *******5264
                                                 </td>
-                                                    <td className="text-danger">-0.000242 BTC</td>
                                                     <td>-0.125 USD</td>
                                                 </tr>
                                                 <tr>
@@ -202,7 +200,7 @@ const Trade = () => {
                                                     <td>
                                                         Using - Wallet*******8475
                                                 </td>
-                                                    <td className="text-danger">-0.000242 BTC</td>
+                                                    
                                                     <td>-0.125 USD</td>
                                                 </tr>
                                                 <tr>
@@ -228,7 +226,7 @@ const Trade = () => {
                                                     <td>
                                                         Using - Wallet*******2321
                                                 </td>
-                                                    <td className="text-danger">-0.000242 BTC</td>
+                                                    
                                                     <td>-0.125 USD</td>
                                                 </tr>
                                             </tbody>
@@ -250,7 +248,6 @@ const Trade = () => {
                                                     <th>Type</th>
                                                     <th>Coin Name</th>
                                                     <th>Wallet</th>
-                                                    <th>Amount</th>
                                                     <th>Balance</th>
                                                 </tr>
                                             </thead>
@@ -265,7 +262,6 @@ const Trade = () => {
                                                     <td>
                                                         Using - Wallet *******5264
                                                 </td>
-                                                    <td className="text-danger">-0.000242 BTC</td>
                                                     <td>-0.125 USD</td>
                                                 </tr>
                                                 <tr>
@@ -291,7 +287,7 @@ const Trade = () => {
                                                     <td>
                                                         Using - Wallet*******8475
                                                 </td>
-                                                    <td className="text-danger">-0.000242 BTC</td>
+                                                    
                                                     <td>-0.125 USD</td>
                                                 </tr>
                                                 <tr>
@@ -317,7 +313,7 @@ const Trade = () => {
                                                     <td>
                                                         Using - Wallet*******2321
                                                 </td>
-                                                    <td className="text-danger">-0.000242 BTC</td>
+                                                    
                                                     <td>-0.125 USD</td>
                                                 </tr>
                                             </tbody>
@@ -354,7 +350,7 @@ const Trade = () => {
                                                     <td>
                                                         Using - Wallet *******5264
                                                 </td>
-                                                    <td className="text-danger">-0.000242 BTC</td>
+                                                    
                                                     <td>-0.125 USD</td>
                                                 </tr>
                                                 <tr>
@@ -380,7 +376,7 @@ const Trade = () => {
                                                     <td>
                                                         Using - Wallet*******8475
                                                 </td>
-                                                    <td className="text-danger">-0.000242 BTC</td>
+                                                    
                                                     <td>-0.125 USD</td>
                                                 </tr>
                                                 <tr>
@@ -406,7 +402,7 @@ const Trade = () => {
                                                     <td>
                                                         Using - Wallet*******2321
                                                 </td>
-                                                    <td className="text-danger">-0.000242 BTC</td>
+                                                    
                                                     <td>-0.125 USD</td>
                                                 </tr>
                                             </tbody>

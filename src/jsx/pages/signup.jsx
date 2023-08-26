@@ -5,7 +5,7 @@ import logo from '../../images/logo.png'
 const Signup = () => {
     return (
         <>
-           <div className="authincation section-padding">
+           {/* <div className="authincation section-padding">
             <div className="container h-100">
                 <div className="row justify-content-center h-100 align-items-center">
                     <div className="col-xl-5 col-md-6">
@@ -52,7 +52,7 @@ const Signup = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
         </>
     );
 };

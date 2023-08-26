@@ -37,17 +37,12 @@ const Signin = () => {
                                         <button type="submit" className="btn btn-primary btn-block">Sign in</button>
                                     </div>
                                 </form>
-                                <p className="mt-3 mb-0">Don't have an account? <Link className="text-primary"
-                                        to={"/signup"}>Sign up</Link></p>
+                                {/* <p className="mt-3 mb-0">Don't have an account? <Link className="text-primary"
+                                        to={"/signup"}>Sign up</Link></p> */}
                             </div>
 
                         </div>
-                        <div className="privacy-link">
-                            <Link to={"/signup"}>Have an issue with 2-factor
-                                authentication?</Link>
-                            <br />
-                            <Link to={"/signup"}>Privacy Policy</Link>
-                        </div>
+                   
                     </div>
                 </div>
             </div>
