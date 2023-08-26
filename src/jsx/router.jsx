@@ -28,7 +28,7 @@ const Router = () => {
     return (
         <>
 
-            <BrowserRouter basename={'/demo/SteamX_react'}>
+            <BrowserRouter>
             {/* <BrowserRouter> */}
                 <div id="main-wrapper">
                     <Switch>

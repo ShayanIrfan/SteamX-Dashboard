@@ -1,6 +1,5 @@
 {
   "name": "SteamX_react",
-  "homepage": "https://qkit.io/demo/SteamX_react/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
