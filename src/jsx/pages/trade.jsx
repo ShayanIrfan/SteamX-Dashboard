@@ -164,7 +164,7 @@ const Trade = () => {
             <div className="col-xxl-12">
               <div className="card">
                 <div className="card-header">
-                  <h4 className="card-title">Buy Transaction</h4>
+                  <h4 className="card-title">Transactions</h4>
                 </div>
                 <div className="card-body">
                   <div className="table-responsive">
@@ -174,7 +174,7 @@ const Trade = () => {
                           <th>Type</th>
                           <th>Coin Name</th>
                           <th>Wallet</th>
-                          <th>Amount</th>
+                          
                           <th>Balance</th>
                         </tr>
                       </thead>
@@ -190,8 +190,8 @@ const Trade = () => {
                             <i className="cc BTC"></i> Bitcoin
                           </td>
                           <td>Using - Wallet *******5264</td>
-                          <td className="text-danger">-0.000242 BTC</td>
-                          <td>-0.125 USD</td>
+                          
+                          <td>10.125 USD</td>
                         </tr>
                         <tr>
                           <td>
@@ -204,8 +204,8 @@ const Trade = () => {
                             <i className="cc LTC"></i> Litecoin
                           </td>
                           <td>Using - Wallet*******8475</td>
-                          <td className="text-success">-0.000242 BTC</td>
-                          <td>-0.125 USD</td>
+                          
+                          <td>10.125 USD</td>
                         </tr>
                         <tr>
                           <td>
@@ -218,8 +218,8 @@ const Trade = () => {
                             <i className="cc XRP"></i> Ripple
                           </td>
                           <td>Using - Wallet*******8475</td>
-                          <td className="text-danger">-0.000242 BTC</td>
-                          <td>-0.125 USD</td>
+                          
+                          <td>10.125 USD</td>
                         </tr>
                         <tr>
                           <td>
@@ -232,8 +232,8 @@ const Trade = () => {
                             <i className="cc DASH"></i> Dash
                           </td>
                           <td>Using - Wallet*******2321</td>
-                          <td className="text-success">-0.000242 BTC</td>
-                          <td>-0.125 USD</td>
+                          
+                          <td>10.125 USD</td>
                         </tr>
                         <tr>
                           <td>
@@ -246,8 +246,8 @@ const Trade = () => {
                             <i className="cc BTC"></i> Bitcoin
                           </td>
                           <td>Using - Wallet*******2321</td>
-                          <td className="text-danger">-0.000242 BTC</td>
-                          <td>-0.125 USD</td>
+                          
+                          <td>10.125 USD</td>
                         </tr>
                       </tbody>
                     </table>
@@ -255,194 +255,8 @@ const Trade = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xxl-12">
-              <div className="card">
-                <div className="card-header">
-                  <h4 className="card-title">Sell Transaction</h4>
-                </div>
-                <div className="card-body">
-                  <div className="table-responsive">
-                    <table className="table table-striped responsive-table">
-                      <thead>
-                        <tr>
-                          <th>Type</th>
-                          <th>Coin Name</th>
-                          <th>Wallet</th>
-                          <th>Amount</th>
-                          <th>Balance</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>
-                            <span className="danger-arrow">
-                              <i className="icofont-arrow-down"></i>
-                              Sold
-                            </span>
-                          </td>
-                          <td className="coin-name">
-                            <i className="cc BTC"></i> Bitcoin
-                          </td>
-                          <td>Using - Wallet *******5264</td>
-                          <td className="text-danger">-0.000242 BTC</td>
-                          <td>-0.125 USD</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <span className="success-arrow">
-                              <i className="icofont-arrow-up"></i>
-                              Buy
-                            </span>
-                          </td>
-                          <td className="coin-name">
-                            <i className="cc LTC"></i> Litecoin
-                          </td>
-                          <td>Using - Wallet*******8475</td>
-                          <td className="text-success">-0.000242 BTC</td>
-                          <td>-0.125 USD</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <span className="danger-arrow">
-                              <i className="icofont-arrow-down"></i>
-                              Sold
-                            </span>
-                          </td>
-                          <td className="coin-name">
-                            <i className="cc XRP"></i> Ripple
-                          </td>
-                          <td>Using - Wallet*******8475</td>
-                          <td className="text-danger">-0.000242 BTC</td>
-                          <td>-0.125 USD</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <span className="success-arrow">
-                              <i className="icofont-arrow-up"></i>
-                              Buy
-                            </span>
-                          </td>
-                          <td className="coin-name">
-                            <i className="cc DASH"></i> Dash
-                          </td>
-                          <td>Using - Wallet*******2321</td>
-                          <td className="text-success">-0.000242 BTC</td>
-                          <td>-0.125 USD</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <span className="danger-arrow">
-                              <i className="icofont-arrow-down"></i>
-                              Sold
-                            </span>
-                          </td>
-                          <td className="coin-name">
-                            <i className="cc BTC"></i> Bitcoin
-                          </td>
-                          <td>Using - Wallet*******2321</td>
-                          <td className="text-danger">-0.000242 BTC</td>
-                          <td>-0.125 USD</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xxl-12">
-              <div className="card">
-                <div className="card-header">
-                  <h4 className="card-title">Transfer Transaction</h4>
-                </div>
-                <div className="card-body">
-                  <div className="table-responsive">
-                    <table className="table table-striped responsive-table">
-                      <thead>
-                        <tr>
-                          <th>Type</th>
-                          <th>Coin Name</th>
-                          <th>Wallet</th>
-                          <th>Amount</th>
-                          <th>Balance</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>
-                            <span className="danger-arrow">
-                              <i className="icofont-arrow-down"></i>
-                              Sold
-                            </span>
-                          </td>
-                          <td className="coin-name">
-                            <i className="cc BTC"></i> Bitcoin
-                          </td>
-                          <td>Using - Wallet *******5264</td>
-                          <td className="text-danger">-0.000242 BTC</td>
-                          <td>-0.125 USD</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <span className="success-arrow">
-                              <i className="icofont-arrow-up"></i>
-                              Buy
-                            </span>
-                          </td>
-                          <td className="coin-name">
-                            <i className="cc LTC"></i> Litecoin
-                          </td>
-                          <td>Using - Wallet*******8475</td>
-                          <td className="text-success">-0.000242 BTC</td>
-                          <td>-0.125 USD</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <span className="danger-arrow">
-                              <i className="icofont-arrow-down"></i>
-                              Sold
-                            </span>
-                          </td>
-                          <td className="coin-name">
-                            <i className="cc XRP"></i> Ripple
-                          </td>
-                          <td>Using - Wallet*******8475</td>
-                          <td className="text-danger">-0.000242 BTC</td>
-                          <td>-0.125 USD</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <span className="success-arrow">
-                              <i className="icofont-arrow-up"></i>
-                              Buy
-                            </span>
-                          </td>
-                          <td className="coin-name">
-                            <i className="cc DASH"></i> Dash
-                          </td>
-                          <td>Using - Wallet*******2321</td>
-                          <td className="text-success">-0.000242 BTC</td>
-                          <td>-0.125 USD</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <span className="danger-arrow">
-                              <i className="icofont-arrow-down"></i>
-                              Sold
-                            </span>
-                          </td>
-                          <td className="coin-name">
-                            <i className="cc BTC"></i> Bitcoin
-                          </td>
-                          <td>Using - Wallet*******2321</td>
-                          <td className="text-danger">-0.000242 BTC</td>
-                          <td>-0.125 USD</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
+           
+      
           </div>
         </div>
       </div>
