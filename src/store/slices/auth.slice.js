@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 // Thunks
-import { signInThunk, signUpThunk } from "../thunks/auth.thunk";
+import { signInThunk } from "../thunks/auth.thunk";
 
 // types
 import {
@@ -21,7 +21,6 @@ const initialState = {
   // },
   user: null,
   _signIn: initialActionTracker,
-  _signUp: initialActionTracker,
 };
 
 const authSlice = createSlice({
@@ -31,11 +30,12 @@ const authSlice = createSlice({
     logout: (state) => {
       state.user = null;
       state._signIn = initialActionTracker;
-      state._signUp = initialActionTracker;
     },
 
     updateUserData: (state, { payload }) => {
-      state.user.data = payload;
+      if (state.user?.data) {
+        state.user.data = payload;
+      }
     },
   },
   extraReducers: (builder) => {
@@ -53,21 +53,6 @@ const authSlice = createSlice({
     builder.addCase(signInThunk.rejected, (state, { error, payload }) => {
       console.log("check__________", error);
       state._signIn = handleFailure(error.message);
-    });
-
-    // Singup
-    builder.addCase(signUpThunk.pending, (state) => {
-      state._signUp = handlePending();
-    });
-    builder.addCase(signUpThunk.fulfilled, (state, { payload }) => {
-      state._signUp = handleSuccess(
-        payload.message || "Signed up successfully"
-      );
-
-      state.user = payload.payload;
-    });
-    builder.addCase(signUpThunk.rejected, (state, { error }) => {
-      state._signUp = handleFailure(error.message);
     });
   },
 });

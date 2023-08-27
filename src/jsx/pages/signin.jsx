@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link, useHistory } from "react-router-dom";
 import logo from "../../images/logo.png";
 import { useDispatch, useSelector } from "react-redux";
@@ -7,7 +7,8 @@ import { Alert } from "antd";
 
 const Signin = () => {
   const {
-    _signIn: { isError, errorMessage },
+    user,
+    _signIn: { isLoading, isError, errorMessage },
   } = useSelector((state) => state.auth);
   const dispatch = useDispatch();
   const history = useHistory();
@@ -22,6 +23,12 @@ const Signin = () => {
     const resp = await dispatch(signInThunk(data));
     if (resp?.payload) history.push("/");
   };
+
+  useEffect(() => {
+    if (!isLoading && user) {
+      history.push("/");
+    }
+  }, [user]);
 
   return (
     <>
@@ -100,12 +107,6 @@ const Signin = () => {
                       </button>
                     </div>
                   </form>
-                  <p className="mt-3 mb-0">
-                    Don't have an account?{" "}
-                    <Link className="text-primary" to={"/signup"}>
-                      Sign up
-                    </Link>
-                  </p>
                 </div>
               </div>
               <div className="privacy-link">
@@ -113,7 +114,7 @@ const Signin = () => {
                   Have an issue with 2-factor authentication?
                 </Link> */}
                 <br />
-                <Link to={"/signup"}>Privacy Policy</Link>
+                <Link to={"#"}>Privacy Policy</Link>
               </div>
             </div>
           </div>

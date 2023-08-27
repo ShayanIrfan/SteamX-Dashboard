@@ -13,7 +13,6 @@ const Sidebar = () => {
   const history = useHistory();
 
   useEffect(() => {
-    console.log("check______tt", isLoading, user);
     if (!isLoading && !user) {
       history.push("/signin");
     }
